@@ -1,0 +1,19 @@
+// Bubble Sort Algorithm 
+
+
+step 1.0 : input list of elements 
+step 1.0 : assign  length = no of element.
+step 2.0 : assign i=0
+step 2.1 : if (i<length) then
+step 2.2 : assign j = i + 1
+step 2.3 : if (j<length) then
+step 2.4 : if (elements[i] > elements[j]) then
+step 2.5 : assign temp=elements[i]
+step 2.6 : assign elements[i]=elements[j]
+step 2.7 : assign elements[j]=temp
+step 2.8 : 2.4 else part goto step No 2.9
+step 2.9 : update j by 1 goto step No 2.3
+step 2.10 : 2.3 else part goto step No 2.11
+step 2.11 : update the i by 1 goto step No 2.1
+step 2.12 : 2.1 else part goto step No 2.13
+step 2.13 : Stop
